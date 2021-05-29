@@ -1,0 +1,17 @@
+.homepage-container {
+    height: calc(100vh + .75rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage-container--doom {
+    background-color: #9d0000;
+}
+
+.homepage-container--doom2 {
+    background-color: #373737;
+}

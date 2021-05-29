@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "AlfaSlabOne";
+    font-display: swap;
+    src: url("../fonts/AlfaSlabOne-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.bg-dark {
+    background: #1f1f1f;
+}
+
+.link {
+    display: inline-block;
+    margin: 1rem 0;
+    border: 2px solid #fff;
+    border-radius: 5rem;
+    color: #fff;
+    padding: .5rem 3rem;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.link:hover {
+    background: #fff;
+    color: #000;
+}
+
+.main-heading {
+    color: #fff;
+    font-size: 5rem;
+    margin: 1rem auto;
+    font-family: AlfaSlabOne, sans-serif;
+    text-align: center;
+}
+
+.subheading {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem auto;
+    font-family: AlfaSlabOne, sans-serif;
+    text-align: center;
+}
+
+.main-heading--shadow {
+    text-shadow: 0 0 3rem rgba(255, 255, 255, 0.7);
+}

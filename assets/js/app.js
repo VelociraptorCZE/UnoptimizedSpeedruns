@@ -1,0 +1,1 @@
+new MiniLazyload({ rootMargin: "1px" }, ".lazyload", MiniLazyload.IGNORE_NATIVE_LAZYLOAD);
