@@ -33,3 +33,19 @@
     display: block;
     content: "";
 }
+
+.demo-badge {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding: .25rem;
+}
+
+.demo-badge--wr {
+    background: #a0940c;
+}
+
+.demo-badge--category {
+    background: #9d0000;
+}
