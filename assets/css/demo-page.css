@@ -40,6 +40,8 @@
     font-weight: 700;
     color: #fff;
     padding: .25rem;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .demo-badge--wr {
