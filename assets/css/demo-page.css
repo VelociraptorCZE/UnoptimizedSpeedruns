@@ -51,3 +51,11 @@
 .demo-badge--category {
     background: #9d0000;
 }
+
+.divider {
+    border: none;
+    border-top: 1px solid #686868;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+}
